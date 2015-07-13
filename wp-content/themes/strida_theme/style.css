@@ -1,0 +1,75 @@
+/*
+    Theme Name: strida Theme
+    Theme URI:
+    Author: HTML to WP
+    Author URI:
+    Description:
+    Version: 1.0
+    */
+
+body {
+    background-color: #ffffff !important;
+    background-image: url("images/bg/bg2.jpg")!important;
+    background-repeat: no-repeat !important;
+}
+
+#sotss-skin-tango-80 .sotss-container {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+#sotss-skin-tango-80 .sotss-container-horizontal {
+    width: 875px;
+    padding: 20px 40px;
+}
+
+#sotss-skin-tango-80 .sotss-clip-horizontal {
+    width: 875px;
+    /*height: 117px;*/
+}
+
+#sotss-skin-tango-80 .sotss-item {
+    width: 155px;
+    /*height: 117px;*/
+    color: #000000
+}
+
+#sotss-skin-tango-80 .SotSimpleSlider_item {
+    width: 165px
+}
+
+#sotss-skin-tango-80 .SotSimpleSlider_item .media {
+    padding: 5px
+}
+
+#sotss-skin-tango-80 .SotSimpleSlider_item .contentSlider {
+    padding: 5px;
+    overflow: hidden
+}
+
+.sotss-theme3 #sotss-skin-tango-80 .SotSimpleSlider_item .media_content {
+    position: relative;
+    height: 117px;
+    overflow: hidden;
+    background: blue
+}
+
+.sotss-theme3 #sotss-skin-tango-80 .SotSimpleSlider_item .contentSlider {
+    padding: 5px;
+    overflow: hidden;
+    top: 87px;
+}
+
+#sotss-skin-tango-80 .sotss-container-vertical {
+    width: 175px;
+    height: 685px;
+    padding: 40px 20px;
+}
+
+#sotss-skin-tango-80 .sotss-clip-vertical {
+    width: 175px;
+    height: 685px;
+}

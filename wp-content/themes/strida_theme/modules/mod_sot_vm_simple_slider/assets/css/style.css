@@ -1,0 +1,246 @@
+
+.sotss-skin-tango .sotss-direction-rtl {
+	direction: rtl;
+}
+
+.sotss-skin-tango .sotss-clip {
+    overflow: hidden;
+}
+
+.sotss-skin-tango .sotss-item-horizontal {
+	margin-left: 0;
+    margin-right: 20px;
+	position:relative;
+}
+
+.sotss-skin-tango .sotss-direction-rtl .sotss-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.sotss-skin-tango .sotss-item-vertical {
+    margin-bottom: 10px;
+}
+
+.sotss-skin-tango .sotss-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+
+/* Disable by Quang
+.sotss-skin-tango .sotss-next-horizontal {
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    width: 20px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent url(next-horizontal.jpg) no-repeat 0 0;
+}
+
+.sotss-skin-tango .sotss-direction-rtl .sotss-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(prev-horizontal.png);
+}
+
+.sotss-skin-tango .sotss-next-horizontal:hover,
+.sotss-skin-tango .sotss-next-horizontal:focus {
+    background-position: 0px -40px;
+}
+
+.sotss-skin-tango .sotss-next-horizontal:active {
+    background-position: 0px -40px;
+}
+
+.sotss-skin-tango .sotss-next-disabled-horizontal,
+.sotss-skin-tango .sotss-next-disabled-horizontal:hover,
+.sotss-skin-tango .sotss-next-disabled-horizontal:focus,
+.sotss-skin-tango .sotss-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: 0 0;
+}
+
+.sotss-skin-tango .sotss-prev-horizontal {
+    position: absolute;
+    top: 43px;
+    left: 5px;
+    width: 20px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.jpg) no-repeat 0 0;
+}
+
+.sotss-skin-tango .sotss-direction-rtl .sotss-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(next-horizontal.jpg);
+}
+
+.sotss-skin-tango .sotss-prev-horizontal:hover, 
+.sotss-skin-tango .sotss-prev-horizontal:focus {
+    background-position: 0px -40px;
+}
+
+.sotss-skin-tango .sotss-prev-horizontal:active {
+    background-position: 0px -40px;
+}
+
+.sotss-skin-tango .sotss-prev-disabled-horizontal,
+.sotss-skin-tango .sotss-prev-disabled-horizontal:hover,
+.sotss-skin-tango .sotss-prev-disabled-horizontal:focus,
+.sotss-skin-tango .sotss-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: 0 0;
+}
+Disabled by Quang */
+.sotss-skin-tango .sotss-next-horizontal {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 29px;
+    height: 19px;
+    cursor: pointer;
+    background: transparent url(next-horizontal.jpg)/*tpa=http://strida.vn/modules/mod_sot_vm_simple_slider/assets/css/next-horizontal.jpg*/ no-repeat 0 0;
+}
+
+.sotss-skin-tango .sotss-direction-rtl .sotss-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(prev-horizontal.jpg)/*tpa=http://strida.vn/modules/mod_sot_vm_simple_slider/assets/css/prev-horizontal.jpg*/;
+}
+
+/*.sotss-skin-tango .sotss-next-horizontal:hover,
+.sotss-skin-tango .sotss-next-horizontal:focus {
+    background-position: 0px -40px;
+}*/
+
+.sotss-skin-tango .sotss-next-horizontal:active {
+    background-position: 0px -40px;
+}
+
+.sotss-skin-tango .sotss-next-disabled-horizontal,
+.sotss-skin-tango .sotss-next-disabled-horizontal:hover,
+.sotss-skin-tango .sotss-next-disabled-horizontal:focus,
+.sotss-skin-tango .sotss-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: 0 0;
+}
+
+.sotss-skin-tango .sotss-prev-horizontal {
+    position: absolute;
+    top: 1px;
+    right: 30px;
+    width: 29px;
+    height: 19px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.jpg)/*tpa=http://strida.vn/modules/mod_sot_vm_simple_slider/assets/css/prev-horizontal.jpg*/ no-repeat 0 0;
+}
+
+.sotss-skin-tango .sotss-direction-rtl .sotss-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(next-horizontal.jpg)/*tpa=http://strida.vn/modules/mod_sot_vm_simple_slider/assets/css/next-horizontal.jpg*/;
+}
+
+/*.sotss-skin-tango .sotss-prev-horizontal:hover, 
+.sotss-skin-tango .sotss-prev-horizontal:focus {
+    background-position: 0px -40px;
+}*/
+
+.sotss-skin-tango .sotss-prev-horizontal:active {
+    background-position: 0px -40px;
+}
+
+.sotss-skin-tango .sotss-prev-disabled-horizontal,
+.sotss-skin-tango .sotss-prev-disabled-horizontal:hover,
+.sotss-skin-tango .sotss-prev-disabled-horizontal:focus,
+.sotss-skin-tango .sotss-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: 0 0;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.sotss-skin-tango .sotss-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent url(next-vertical.png)/*tpa=http://strida.vn/modules/mod_sot_vm_simple_slider/assets/css/next-vertical.png*/ no-repeat 0 0;
+}
+
+.sotss-skin-tango .sotss-next-vertical:hover,
+.sotss-skin-tango .sotss-next-vertical:focus {
+    background-position: 0 -20px;
+}
+
+.sotss-skin-tango .sotss-next-vertical:active {
+    background-position: 0 -20px;
+}
+
+.sotss-skin-tango .sotss-next-disabled-vertical,
+.sotss-skin-tango .sotss-next-disabled-vertical:hover,
+.sotss-skin-tango .sotss-next-disabled-vertical:focus,
+.sotss-skin-tango .sotss-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -20px;
+}
+
+.sotss-skin-tango .sotss-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent url(prev-vertical.png)/*tpa=http://strida.vn/modules/mod_sot_vm_simple_slider/assets/css/prev-vertical.png*/ no-repeat 0 0;
+}
+
+.sotss-skin-tango .sotss-prev-vertical:hover,
+.sotss-skin-tango .sotss-prev-vertical:focus {
+    background-position: 0 -20px;
+}
+
+.sotss-skin-tango .sotss-prev-vertical:active {
+    background-position: 0 -20px;
+}
+
+.sotss-skin-tango .sotss-prev-disabled-vertical,
+.sotss-skin-tango .sotss-prev-disabled-vertical:hover,
+.sotss-skin-tango .sotss-prev-disabled-vertical:focus,
+.sotss-skin-tango .sotss-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+/** desc **/
+/*.sotss-theme1 .sotss-skin-tango .SotSimpleSlider_item{ border: 0px solid #999999; position:relative; width:100%; overflow:hidden; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; background:#fff; -moz-box-shadow: 5px 5px 5px #ccc; -webkit-box-shadow: 5px 5px 5px #ccc; box-shadow: 0px 0px 0px #ccc;}*/
+.sotss-theme1 .sotss-skin-tango .SotSimpleSlider_item .contentSlider{ /*line-height:12pt*/}
+.sotss-theme1 .sotss-skin-tango .SotSimpleSlider_item .contentSlider a{ color:#a1a1a1!important;}
+.sotss-theme1 .sotss-skin-tango .SotSimpleSlider_item .contentSlider .ss_title a:hover{ color:#F67555!important;}
+.sotss-theme1 .sotss-skin-tango .SotSimpleSlider_item .contentSlider .ss_title{ font-family: 'Roboto',sans-serif; font-size:10pt;text-align:center; }
+.sotss-theme1 .sotss-skin-tango .SotSimpleSlider_item .contentSlider .ss_title a{ text-decoration:none; color:#a1a1a1!important}
+.sotss-theme1 .sotss-skin-tango .SotSimpleSlider_item .contentSlider .readmore{ color:#a1a1a1!important; text-decoration:none; font-weight:bold; float:right; right:5px; position:relative}
+.sotss-theme1 .sotss-skin-tango .SotSimpleSlider_item .contentSlider .ss_content{ margin-top:5px;}
+
+.sotss-theme2 .sotss-skin-tango .SotSimpleSlider_item{ border: solid thin #999999; position:relative; width:100%; overflow:hidden; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; background:#fff; -moz-box-shadow: 5px 5px 5px #ccc; -webkit-box-shadow: 5px 5px 5px #ccc; box-shadow: 5px 5px 5px #ccc;}
+.sotss-theme2 .sotss-skin-tango .SotSimpleSlider_item .media .ss_title{ height:30px; width:100%; background:#fff; opacity:0.5; position:absolute; bottom:0px; text-align:center}
+.sotss-theme2 .sotss-skin-tango .SotSimpleSlider_item .media .ss_title_a{ position:absolute; bottom:0px; padding:0px 0px 5px 5px; text-align:center; width:100%; overflow:hidden}
+.sotss-theme2 .sotss-skin-tango .SotSimpleSlider_item .media .ss_title_a a{ color: #1D1D1D!important; font-weight:bold; font-size:12pt; text-decoration:none; border:none!important}
+
+.sotss-theme3 .sotss-skin-tango .SotSimpleSlider_item{ border: solid thin #999999; position:relative; width:100%; overflow:hidden; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; background:#fff; -moz-box-shadow: 5px 5px 5px #ccc; -webkit-box-shadow: 5px 5px 5px #ccc; box-shadow: 5px 5px 5px #ccc;overflow:hidden}
+.sotss-theme3 .sotss-skin-tango .SotSimpleSlider_item .media{ overflow:hidden}
+.sotss-theme3 .sotss-skin-tango .SotSimpleSlider_item .contentSlider{ background:url('bg.png')/*tpa=http://strida.vn/modules/mod_sot_vm_simple_slider/assets/css/bg.png*/; line-height:14pt; position:absolute;}
+.sotss-theme3 .sotss-skin-tango .SotSimpleSlider_item .contentSlider a{ color:#000066!important; border:none!important;}
+.sotss-theme3 .sotss-skin-tango .SotSimpleSlider_item .contentSlider .ss_title{ font-weight:bold; font-size:12pt; }
+.sotss-theme3 .sotss-skin-tango .SotSimpleSlider_item .contentSlider .ss_title a{ text-decoration:none; color:#000000!important; padding-left:5px}
+.sotss-theme3 .sotss-skin-tango .SotSimpleSlider_item .contentSlider .readmore{ color:#000066!important; text-decoration:none; font-weight:bold; float:right; right:5px; position:relative}
+.sotss-theme3 .sotss-skin-tango .SotSimpleSlider_item .contentSlider .ss_content{ margin-top:5px;}
