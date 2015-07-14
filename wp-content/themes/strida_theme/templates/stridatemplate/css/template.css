@@ -193,6 +193,12 @@ body
 	background-color:#fff;
 	min-height: 500px;
 }
+
+#page_content_right img.size-full {
+	width: 100%;
+	height: auto;
+}
+
 .contentpaneopen
 {
 	width: 100%;
