@@ -97,6 +97,9 @@
 	      tppabs="http://strida.vn/modules/mod_sot_vm_simple_slider/assets/css/style.css" type="text/css"/>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<?php wp_head(); ?>
+
 </head>
 
 <body class="<?php body_class(); ?>">

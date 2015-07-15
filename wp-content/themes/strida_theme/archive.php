@@ -34,8 +34,6 @@ get_header(); ?>
 
 		</div>
 	</div>
-
-	<!-- Old position of COMPONENT -->
 </div>
 <div id="main_bottom">
 </div>

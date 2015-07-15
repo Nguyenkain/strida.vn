@@ -73,3 +73,6 @@ body {
     width: 175px;
     height: 685px;
 }
+.gallery {
+    padding: 0 30px;
+}
