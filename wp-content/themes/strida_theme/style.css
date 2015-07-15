@@ -76,3 +76,9 @@ body {
 .gallery {
     padding: 0 30px;
 }
+
+.gallery > div.block {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}

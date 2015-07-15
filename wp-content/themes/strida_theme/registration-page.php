@@ -41,6 +41,9 @@ Template Name: Bike Registration Template
 </div>
 
 <div id="page_content">
-	<?php the_content() ?>
+	<div class="gallery">
+		<?php the_content() ?>
+		<div class="clr"></div>
+	</div>
 </div>
 <?php get_footer(); ?>
