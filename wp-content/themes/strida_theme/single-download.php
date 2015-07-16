@@ -13,7 +13,7 @@ get_header(); ?>
 		<div id="page_title_left">
 			<div class="bannergroup">
 
-				<div class="banneritem"><img src="http://strida.vn/images/banners/downloads_title_bg.png" alt="Banner">
+				<div class="banneritem"><img src="<?php bloginfo( 'template_url' ) ?>/images/banners/downloads_title_bg.png" alt="Banner">
 
 					<div class="clr"></div>
 				</div>

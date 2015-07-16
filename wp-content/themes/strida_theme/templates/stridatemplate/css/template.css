@@ -96,6 +96,8 @@ body
 	width: 975px;
 	/*height: 100%;*/
 	margin: 0 auto;
+	min-height: 500px;
+
 }
 #warranty_block
 {
@@ -191,7 +193,7 @@ body
 	/*height: 100%;*/
 	margin-left: 244px;
 	background-color:#fff;
-	min-height: 500px;
+	/*min-height: 500px;*/
 }
 
 #page_content_right img.size-full {
