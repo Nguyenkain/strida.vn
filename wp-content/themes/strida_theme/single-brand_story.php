@@ -22,9 +22,9 @@ get_header(); ?>
 			</div>
 		</div>
 		<div id="page_title_right">
-        	<span class="breadcrumbs pathway">
-<a href="http://strida.vn/" class="pathway">PROFILE LIST</a> &nbsp; &gt; &nbsp; Brand Story</span>
-
+			<?php if ( function_exists( 'bcn_display' ) ) {
+				bcn_display();
+			} ?>
 		</div>
 	</div>
 </div>

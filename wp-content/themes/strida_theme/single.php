@@ -13,7 +13,8 @@ get_header(); ?>
 		<div id="page_title_left">
 			<div class="bannergroup">
 
-				<div class="banneritem"><img src="<?php bloginfo( 'template_url' ) ?>/images/banners/news_list_title.jpg" alt="Banner">
+				<div class="banneritem"><img
+						src="<?php bloginfo( 'template_url' ) ?>/images/banners/news_list_title.jpg" alt="Banner">
 
 					<div class="clr"></div>
 				</div>
@@ -21,10 +22,9 @@ get_header(); ?>
 			</div>
 		</div>
 		<div id="page_title_right">
-        	<span class="breadcrumbs pathway">
-<a href="http://strida.vn/" class="pathway">NEWS LIST</a> &nbsp; &gt; &nbsp; <a
-			        href="/index.php?option=com_content&amp;view=category&amp;id=1&amp;Itemid=35&amp;lang=en"
-			        class="pathway">2013</a> &nbsp; &gt; &nbsp; (Vietnam) STRiDA Vietnam tham d? Vietnam MTS 2014</span>
+			<?php if ( function_exists( 'bcn_display' ) ) {
+				bcn_display();
+			} ?>
 
 		</div>
 	</div>

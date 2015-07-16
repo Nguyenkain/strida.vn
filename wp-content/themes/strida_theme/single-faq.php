@@ -21,6 +21,9 @@ get_header(); ?>
 			</div>
 		</div>
 		<div id="page_title_right">
+			<?php if ( function_exists( 'bcn_display' ) ) {
+				bcn_display();
+			} ?>
 		</div>
 	</div>
 </div>

@@ -124,84 +124,13 @@
 		</div>
 	</div>
 	<div id="banner_bottom">
-		<ul class="cassrinamenu" id="cassrinamenu">
-			<li><a href="index.php-option=com_content&view=article&id=6&Itemid=1&lang=en.htm"
-			       tppabs="http://strida.vn/index.php?option=com_content&view=article&id=6&Itemid=1&lang=en"
-			       class="mainlevel"> <img src="<?php bloginfo( 'template_url' ) ?>/images/stories/navi_01.jpg"
-			                               tppabs="http://strida.vn/images/stories/navi_01.jpg" border="0"
-			                               alt="Brand Story"
-			                               onmouseover="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_01_o.jpg'/*tpa=http://strida.vn/images/stories/navi_01_o.jpg*/"
-			                               onmouseout="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_01.jpg'/*tpa=http://strida.vn/images/stories/navi_01.jpg*/"/></a>
-			</li>
-			<li><a href="index.php-option=com_content&view=category&id=1&Itemid=2&lang=en.htm"
-			       tppabs="http://strida.vn/index.php?option=com_content&view=category&id=1&Itemid=2&lang=en"
-			       class="mainlevel"> <img src="<?php bloginfo( 'template_url' ) ?>/images/stories/navi_02.jpg"
-			                               tppabs="http://strida.vn/images/stories/navi_02.jpg" border="0"
-			                               alt="What's New"
-			                               onmouseover="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_02_o.jpg'/*tpa=http://strida.vn/images/stories/navi_02_o.jpg*/"
-			                               onmouseout="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_02.jpg'/*tpa=http://strida.vn/images/stories/navi_02.jpg*/"/></a>
-			</li>
-			<li><a href="index.php-option=com_joomgallery&view=gallery&Itemid=3&lang=en.htm"
-			       tppabs="http://strida.vn/index.php?option=com_joomgallery&view=gallery&Itemid=3&lang=en"
-			       class="mainlevel"> <img src="<?php bloginfo( 'template_url' ) ?>/images/stories/navi_03.jpg"
-			                               tppabs="http://strida.vn/images/stories/navi_03.jpg" border="0" alt="Gallery"
-			                               onmouseover="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_03_o.jpg'/*tpa=http://strida.vn/images/stories/navi_03_o.jpg*/"
-			                               onmouseout="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_03.jpg'/*tpa=http://strida.vn/images/stories/navi_03.jpg*/"/></a>
-			</li>
-			<li><a href="index.php-option=com_content&view=article&id=24&Itemid=4&lang=en.htm"
-			       tppabs="http://strida.vn/index.php?option=com_content&view=article&id=24&Itemid=4&lang=en"
-			       class="mainlevel"> <img src="<?php bloginfo( 'template_url' ) ?>/images/stories/navi_04.jpg"
-			                               tppabs="http://strida.vn/images/stories/navi_04.jpg" border="0"
-			                               alt="Distributor"
-			                               onmouseover="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_04_o.jpg'/*tpa=http://strida.vn/images/stories/navi_04_o.jpg*/"
-			                               onmouseout="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_04.jpg'/*tpa=http://strida.vn/images/stories/navi_04.jpg*/"/></a>
-			</li>
-			<li><a href="index.php-option=com_virtuemart&Itemid=5&lang=en&vmcchk=1&Itemid=5.htm"
-			       tppabs="http://strida.vn/index.php?option=com_virtuemart&Itemid=5&lang=en" class="mainlevel"> <img
-						src="<?php bloginfo( 'template_url' ) ?>/images/stories/navi_05.jpg"
-						tppabs="http://strida.vn/images/stories/navi_05.jpg" border="0" alt="Products"
-						onmouseover="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_05_o.jpg'/*tpa=http://strida.vn/images/stories/navi_05_o.jpg*/"
-						onmouseout="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_05.jpg'/*tpa=http://strida.vn/images/stories/navi_05.jpg*/"/></a>
-			</li>
-			<li><a href="index.php-option=com_content&view=category&layout=blog&id=24&Itemid=6&lang=en.htm"
-			       tppabs="http://strida.vn/index.php?option=com_content&view=category&layout=blog&id=24&Itemid=6&lang=en"
-			       class="mainlevel"> <img src="<?php bloginfo( 'template_url' ) ?>/images/stories/navi_06.jpg"
-			                               tppabs="http://strida.vn/images/stories/navi_06.jpg" border="0" alt="Video"
-			                               onmouseover="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_06_o.jpg'/*tpa=http://strida.vn/images/stories/navi_06_o.jpg*/"
-			                               onmouseout="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_06.jpg'/*tpa=http://strida.vn/images/stories/navi_06.jpg*/"/></a>
-			</li>
-			<li><a href="index.php-option=com_aicontactsafe&view=message&layout=message&pf=3&Itemid=7&lang=en.htm"
-			       tppabs="http://strida.vn/index.php?option=com_aicontactsafe&view=message&layout=message&pf=3&Itemid=7&lang=en"
-			       class="mainlevel"> <img src="<?php bloginfo( 'template_url' ) ?>/images/stories/navi_08.jpg"
-			                               tppabs="http://strida.vn/images/stories/navi_08.jpg" border="0"
-			                               alt="Bike Registration"
-			                               onmouseover="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_08_o.jpg'/*tpa=http://strida.vn/images/stories/navi_08_o.jpg*/"
-			                               onmouseout="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_08.jpg'/*tpa=http://strida.vn/images/stories/navi_08.jpg*/"/></a>
-			</li>
-			<li><a href="index.php-option=com_content&view=article&id=74&Itemid=53&lang=en.htm"
-			       tppabs="http://strida.vn/index.php?option=com_content&view=article&id=74&Itemid=53&lang=en"
-			       class="mainlevel"> <img src="<?php bloginfo( 'template_url' ) ?>/images/stories/navi_09.jpg"
-			                               tppabs="http://strida.vn/images/stories/navi_09.jpg" border="0"
-			                               alt="Download"
-			                               onmouseover="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_09_o.jpg'/*tpa=http://strida.vn/images/stories/navi_09_o.jpg*/"
-			                               onmouseout="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_09.jpg'/*tpa=http://strida.vn/images/stories/navi_09.jpg*/"/></a>
-			</li>
-			<li><a href="index.php-option=com_content&view=frontpage&Itemid=9&lang=en.htm"
-			       tppabs="http://strida.vn/index.php?option=com_content&view=frontpage&Itemid=9&lang=en"
-			       class="mainlevel"> <img src="<?php bloginfo( 'template_url' ) ?>/images/stories/navi_10.jpg"
-			                               tppabs="http://strida.vn/images/stories/navi_10.jpg" border="0" alt="FAQ"
-			                               onmouseover="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_10_o.jpg'/*tpa=http://strida.vn/images/stories/navi_10_o.jpg*/"
-			                               onmouseout="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_10.jpg'/*tpa=http://strida.vn/images/stories/navi_10.jpg*/"/></a>
-			</li>
-			<li><a href="index.php-option=com_aicontactsafe&view=message&layout=message&pf=1&Itemid=10&lang=en.htm"
-			       tppabs="http://strida.vn/index.php?option=com_aicontactsafe&view=message&layout=message&pf=1&Itemid=10&lang=en"
-			       class="mainlevel"> <img src="<?php bloginfo( 'template_url' ) ?>/images/stories/navi_11.jpg"
-			                               tppabs="http://strida.vn/images/stories/navi_11.jpg" border="0"
-			                               alt="Contact Us"
-			                               onmouseover="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_11_o.jpg'/*tpa=http://strida.vn/images/stories/navi_11_o.jpg*/"
-			                               onmouseout="javascript:this.src='<?php bloginfo( 'template_url' ) ?>/images/stories/navi_11.jpg'/*tpa=http://strida.vn/images/stories/navi_11.jpg*/"/></a>
-			</li>
-		</ul>
+		<?php
+		// Primary navigation menu.
+		wp_nav_menu( array(
+			'menu_class'     => 'nav-menu cassrinamenu',
+			'theme_location' => 'primary',
+		) );
+		?>
 		<script type="text/javascript">
 
 			var cassrinamenu = new cassrinamenu.dd("cassrinamenu");
