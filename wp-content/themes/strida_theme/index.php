@@ -425,50 +425,7 @@
 			</div>
 		</div>
 		<div id="main_bottom_right_content">
-			<ul class="latestnews">
-				<li class="latestnews">
-
-					<a href="index.php-option=com_content&view=article&id=119-stridamotorshow&catid=1-2013&Itemid=35&lang=en.htm"
-					   tppabs="http://strida.vn/index.php?option=com_content&view=article&id=119%3Astridamotorshow&catid=1%3A2013&Itemid=35&lang=en"
-					   class="latestnews">2014-11-27&nbsp;&nbsp;&nbsp;<b>
-							(Vietnam) STRiDA Vietnam tham dự Vietnam MTS 2014</b></a>
-				</li>
-				<li class="latestnews">
-
-					<a href="index.php-option=com_content&view=article&id=117-aviancaairlinemagazine&catid=1-2013&Itemid=35&lang=en.htm"
-					   tppabs="http://strida.vn/index.php?option=com_content&view=article&id=117%3Aaviancaairlinemagazine&catid=1%3A2013&Itemid=35&lang=en"
-					   class="latestnews">2014-08-13&nbsp;&nbsp;&nbsp;<b>
-							(Brazil) STRiDA @ Avianca Airline Magazine</b></a>
-				</li>
-				<li class="latestnews">
-
-					<a href="index.php-option=com_content&view=article&id=116-brazilpromotionfair&catid=1-2013&Itemid=35&lang=en.htm"
-					   tppabs="http://strida.vn/index.php?option=com_content&view=article&id=116%3Abrazilpromotionfair&catid=1%3A2013&Itemid=35&lang=en"
-					   class="latestnews">2014-08-13&nbsp;&nbsp;&nbsp;<b>
-							(Brazil) STRiDA @ Brazil Promotion Fair</b></a>
-				</li>
-				<li class="latestnews">
-
-					<a href="index.php-option=com_content&view=article&id=113-taiwan-strida-taipei-bicycle-show-2014&catid=1-2013&Itemid=35&lang=en.htm"
-					   tppabs="http://strida.vn/index.php?option=com_content&view=article&id=113%3Ataiwan-strida-taipei-bicycle-show-2014&catid=1%3A2013&Itemid=35&lang=en"
-					   class="latestnews">2014-03-18&nbsp;&nbsp;&nbsp;<b>
-							(Taiwan) STRiDA @Taipei bicycle show 2014</b></a>
-				</li>
-				<li class="latestnews">
-
-					<a href="index.php-option=com_content&view=article&id=111-valentine2014strida&catid=1-2013&Itemid=35&lang=en.htm"
-					   tppabs="http://strida.vn/index.php?option=com_content&view=article&id=111%3Avalentine2014strida&catid=1%3A2013&Itemid=35&lang=en"
-					   class="latestnews">2014-02-11&nbsp;&nbsp;&nbsp;<b>
-							Cùng STRiDA chào đón Valentine 2014</b></a>
-				</li>
-				<li class="latestnews">
-
-					<a href="index.php-option=com_content&view=article&id=110-strida-show-at-the-manor-hcmc&catid=1-2013&Itemid=35&lang=en.htm"
-					   tppabs="http://strida.vn/index.php?option=com_content&view=article&id=110%3Astrida-show-at-the-manor-hcmc&catid=1%3A2013&Itemid=35&lang=en"
-					   class="latestnews">2014-01-15&nbsp;&nbsp;&nbsp;<b>
-							Hot news: Chương trình &quot;Trải nghiệm cuộc sống hiện đại cùng STRiDA&quot;</b></a>
-				</li>
-			</ul>
+			<?php echo do_shortcode( '[postlist id=157]' ); ?>
 		</div>
 	</div>
 </div>

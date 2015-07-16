@@ -97,8 +97,12 @@ body
 	/*height: 100%;*/
 	margin: 0 auto;
 	min-height: 500px;
-
 }
+
+.home #page_content {
+	min-height: inherit;
+}
+
 #warranty_block
 {
 	width: 60%;

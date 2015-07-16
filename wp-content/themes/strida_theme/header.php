@@ -102,10 +102,10 @@
 
 </head>
 
-<body class="<?php body_class(); ?>">
+<body <?php body_class(); ?>>
 <div id="banner">
 	<div id="banner_top">
-		<a href="index.php.htm" tppabs="http://strida.vn/index.php">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 			<div id="banner_top_left"></div>
 		</a>
 
