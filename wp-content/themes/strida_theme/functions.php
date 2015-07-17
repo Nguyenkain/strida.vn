@@ -53,3 +53,12 @@ add_theme_support( 'post-formats', array(
 	'audio',
 	'chat'
 ) );
+
+
+function filter_search($query) {
+	if ($query->is_search) {
+		$query->set('post_type', array('product'));
+	};
+	return $query;
+};
+add_filter('pre_get_posts', 'filter_search');

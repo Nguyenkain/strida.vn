@@ -545,3 +545,8 @@ li.latestnews a:hover {
 .product-content {
     margin: 20px 0;
 }
+
+.search-item {
+    display: block;
+    margin: 10px 0;
+}

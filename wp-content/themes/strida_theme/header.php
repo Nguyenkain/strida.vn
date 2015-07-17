@@ -110,15 +110,13 @@
 		</a>
 
 		<div id="banner_top_right">
-			<form action="http://strida.vn/index.php" method="post">
+			<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 				<div class="search">
-					<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox"
-					       type="text" size="20" value="Products Search..."
+					<input name="s" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox"
+					       type="text" size="20" value="<?php echo get_search_query() ? esc_attr( get_search_query() ) : "Product Search"; ?>"
 					       onblur="if(this.value=='') this.value='Products Search...';"
-					       onfocus="if(this.value=='Products Search...') this.value='';"/></div>
-				<input type="hidden" name="task" value="search"/>
-				<input type="hidden" name="option" value="com_search"/>
-				<input type="hidden" name="Itemid" value="19"/>
+					       onfocus="if(this.value=='Products Search...') this.value='';"/>
+				</div>
 			</form>
 
 		</div>
