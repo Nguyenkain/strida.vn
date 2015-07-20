@@ -54,6 +54,9 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div id="language_selection">
+	<?php do_action('icl_language_selector'); ?>
+</div>
 <div id="banner">
 	<div id="banner_top">
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
