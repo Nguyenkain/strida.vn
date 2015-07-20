@@ -1,0 +1,62 @@
+body {
+  background: url(../img/bg_1600.jpg) repeat-x -10% 50% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main {
+	text-align:center;
+	/*padding-top:180px;*/
+
+}
+.space {
+	background: url("../img/blur.png") repeat 50% 50% ;
+	margin-top: 370px;
+}
+
+@media (min-width: 1024px) and  (max-width: 1399px) {
+	.main {
+		text-align:center;
+		padding-top:40px;
+		padding-bottom:40px;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+	body {
+	  background: url("../img/bg_1600.jpg") no-repeat 50% 90% fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+
+}
+
+
+.container .row.clearfix .col-md-12.column .main .laguage_sw div {
+	display:inline-block;
+}
+.container .row.clearfix .col-md-12.column .main .laguage_sw {
+	padding-top:15px;
+}
+.container .row.clearfix .col-md-12.column .main .laguage_sw a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:bold;
+	margin-left:10px;
+	margin-right:10px;
+	color:#271e1b;
+	text-decoration:none;
+}
+.container .row.clearfix .col-md-12.column .main .laguage_sw a:hover {
+	color:#b30026;
+}
+.container .row.clearfix .col-md-12.column .main .copyright {
+	margin-top:20px;
+	font-size:13px;
+	color:#393939;
+}
