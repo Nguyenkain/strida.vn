@@ -78,7 +78,7 @@ get_header(); ?>
 
 								$colours = get_field( 'color_attribute' );
 								foreach ( $colours as $color ) { ?>
-									<a href="<?php the_permalink($colours[0]['color_product']->ID) ?>"><div style="border:1px solid #c0c0c0; width: 32px; height: 22px; float: left; background: <?php echo $color['color'] ?> "></div></a>
+									<a href="<?php the_permalink($color['color_product']->ID) ?>"><div style="border:1px solid #c0c0c0; width: 32px; height: 22px; float: left; background: <?php echo $color['color'] ?> "></div></a>
 								<?php } ?>
 								<div style="clear: both"></div>
 							</div>

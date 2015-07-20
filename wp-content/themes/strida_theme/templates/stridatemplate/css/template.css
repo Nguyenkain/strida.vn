@@ -568,6 +568,10 @@ li.latestnews a:hover {
     margin-bottom: 15px;
 }
 
+.product-image .product-attribute .color-contain > a > div {
+    margin-right: 4px;
+}
+
 .main-product .product-item {
     display: inline-block;
 }
