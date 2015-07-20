@@ -70,6 +70,19 @@ get_header(); ?>
 								echo "<a rel='zoom-id:product;selectors-change:click;' rev='{$image['full']}' href='{$image['full']}' class='MagicThumb-swap'><img src='{$image['thumb']}'></a>";
 							}
 						} ?>
+
+						<div class="product-attribute">
+							<div class="title">Colours:</div>
+							<div class="color-contain">
+								<?php
+
+								$colours = get_field( 'color_attribute' );
+								foreach ( $colours as $color ) { ?>
+									<a href="<?php the_permalink($colours[0]['color_product']->ID) ?>"><div style="border:1px solid #c0c0c0; width: 32px; height: 22px; float: left; background: <?php echo $color['color'] ?> "></div></a>
+								<?php } ?>
+								<div style="clear: both"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

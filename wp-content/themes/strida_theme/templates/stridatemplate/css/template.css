@@ -555,3 +555,23 @@ li.latestnews a:hover {
     float: right;
     text-align: left;
 }
+
+.product-image .product-attribute {
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+.product-image .product-attribute .title {
+    font-size: 12pt;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.main-product .product-item {
+    display: inline-block;
+}
+
+.main-product .page-navi {
+    margin-top: 25px;
+}

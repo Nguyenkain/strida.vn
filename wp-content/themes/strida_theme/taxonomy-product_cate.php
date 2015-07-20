@@ -85,7 +85,7 @@ get_header(); ?>
 								$my_query = new WP_Query( $args ); ?>
 								<?php if ( $my_query->have_posts() ) { ?>
 									<?php while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
-										<div style="width: 30%; text-align: center">
+										<div class="product-item" style="width: 30%; text-align: center">
 											<a href="<?php the_permalink() ?>">
 												<div>
 													<?php the_post_thumbnail() ?>
