@@ -72,13 +72,14 @@ get_header(); ?>
 
 							<div class="main-product">
 								<?php
+								if ( get_query_var('paged') ) { $paged = get_query_var('paged'); }
+								elseif ( get_query_var('page') ) { $paged = get_query_var('page'); }
+								else { $paged = 1; }
 								$args = array(
 									'post_type'        => 'product',
 									"product_cate"     => get_query_var( 'term' ),
 									'post_status'      => 'publish',
-									'posts_per_page'   => 3,
-									'caller_get_posts' => 1,
-									'paged' => get_query_var( 'paged' ),
+									'paged' => $paged,
 								);
 
 								$my_query = null;
