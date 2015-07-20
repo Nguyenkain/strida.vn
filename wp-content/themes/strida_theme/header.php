@@ -64,7 +64,7 @@
 			<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 				<div class="search">
 					<input name="s" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox"
-					       type="text" size="20" value="<?php echo get_search_query() ? esc_attr( get_search_query() ) : "Product Search"; ?>"
+					       type="text" size="20" value="<?php echo get_search_query() ? esc_attr( get_search_query() ) : "Products Search..."; ?>"
 					       onblur="if(this.value=='') this.value='Products Search...';"
 					       onfocus="if(this.value=='Products Search...') this.value='';"/>
 				</div>
