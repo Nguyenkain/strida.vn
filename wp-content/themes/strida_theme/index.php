@@ -7,8 +7,14 @@
 	<div id="main_top_title">
 		<div class="bannergroup">
 
-			<div class="banneritem"><img src="<?php bloginfo( 'template_url' ) ?>/images/banners/on_focus_title.jpg"
-			                             tppabs="http://strida.vn/images/banners/on_focus_title.jpg" alt="Banner"/>
+			<div class="banneritem">
+				<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+					<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/on_focus_title.jpg"
+					     tppabs="http://strida.vn/images/banners/on_focus_title.jpg" alt="Banner"/>
+				<?php } else { ?>
+					<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/on_focus_vn_title.jpg"
+					     tppabs="http://strida.vn/images/banners/on_focus_title.jpg" alt="Banner"/>
+				<?php } ?>
 
 				<div class="clr"></div>
 			</div>
@@ -18,7 +24,7 @@
 	<div id="main_top_content">
 
 		<div class="sotss-theme1">
-			<?php echo do_shortcode( '[postlist id=180]' ); ?>
+			<?php echo ICL_LANGUAGE_CODE == 'en' ? do_shortcode( '[postlist id=180]' ) : do_shortcode( '[postlist id=848]' ); ?>
 		</div>
 		<script type="text/javascript">
 			jSot(document).ready(function ($) {
@@ -99,17 +105,19 @@
 		<div id="main_bottom_right_title">
 			<div class="bannergroup">
 
-				<div class="banneritem"><img
-						src="<?php bloginfo( 'template_url' ) ?>/images/banners/whats_new_title.jpg"
-						tppabs="http://strida.vn/images/banners/whats_new_title.jpg" alt="Banner"/>
-
+				<div class="banneritem">
+					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/whats_new_title.jpg" alt="Banner"/>
+					<?php } else { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/tintuc_title.jpg" alt="Banner"/>
+					<?php } ?>
 					<div class="clr"></div>
 				</div>
 
 			</div>
 		</div>
 		<div id="main_bottom_right_content">
-			<?php echo do_shortcode( '[postlist id=157]' ); ?>
+			<?php echo ICL_LANGUAGE_CODE == 'en' ? do_shortcode( '[postlist id=157]' ) : do_shortcode( '[postlist id=853]' ); ?>
 		</div>
 	</div>
 </div>

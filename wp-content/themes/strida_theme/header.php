@@ -55,7 +55,7 @@
 
 <body <?php body_class(); ?>>
 <div id="language_selection">
-	<?php do_action('icl_language_selector'); ?>
+	<?php do_action( 'icl_language_selector' ); ?>
 </div>
 <div id="banner">
 	<div id="banner_top">
@@ -66,10 +66,19 @@
 		<div id="banner_top_right">
 			<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 				<div class="search">
-					<input name="s" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox"
-					       type="text" size="20" value="<?php echo get_search_query() ? esc_attr( get_search_query() ) : "Products Search..."; ?>"
-					       onblur="if(this.value=='') this.value='Products Search...';"
-					       onfocus="if(this.value=='Products Search...') this.value='';"/>
+					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+						<input name="s" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox"
+						       type="text" size="20"
+						       value="<?php echo get_search_query() ? esc_attr( get_search_query() ) : "Products Search..."; ?>"
+						       onblur="if(this.value=='') this.value='Products Search...';"
+						       onfocus="if(this.value=='Products Search...') this.value='';"/>
+					<?php } else { ?>
+						<input name="s" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox"
+						       type="text" size="20"
+						       value="<?php echo get_search_query() ? esc_attr( get_search_query() ) : "Tìm Kiếm Sản Phẩm..."; ?>"
+						       onblur="if(this.value=='') this.value='Tìm Kiếm  Sản Phẩm...';"
+						       onfocus="if(this.value=='Tìm Kiếm Sản Phẩm...') this.value='';"/>
+					<?php } ?>
 				</div>
 			</form>
 
@@ -94,66 +103,66 @@
 </div>
 
 <?php if ( is_home() ) { ?>
-<div id="slideshow">
-	<div style="width: 960px;height: 100%;margin:0 auto;">
-		<div style="clear: both;"></div>
-		<div id="mod_btslideshow_16" class="box_skitter mod_btslideshow" style="width:960px; height:360px;">
-			<ul>
-				<li>
-					<img class="cubeRandom"
-					     src="<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/images/16/slideshow/bb01.jpg"
-					     rel="http://strida.vn/modules/mod_btslideshow/images/16/thumbnail/bb01.jpg"/>
+	<div id="slideshow">
+		<div style="width: 960px;height: 100%;margin:0 auto;">
+			<div style="clear: both;"></div>
+			<div id="mod_btslideshow_16" class="box_skitter mod_btslideshow" style="width:960px; height:360px;">
+				<ul>
+					<li>
+						<img class="cubeRandom"
+						     src="<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/images/16/slideshow/bb01.jpg"
+						     rel="http://strida.vn/modules/mod_btslideshow/images/16/thumbnail/bb01.jpg"/>
 
-					<div class="label_text"></div>
-				</li>
-				<li>
-					<img class="cubeRandom"
-					     src="<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/images/16/slideshow/bb02.jpg"
-					     rel="http://strida.vn/modules/mod_btslideshow/images/16/thumbnail/bb02.jpg"/>
+						<div class="label_text"></div>
+					</li>
+					<li>
+						<img class="cubeRandom"
+						     src="<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/images/16/slideshow/bb02.jpg"
+						     rel="http://strida.vn/modules/mod_btslideshow/images/16/thumbnail/bb02.jpg"/>
 
-					<div class="label_text"></div>
-				</li>
-				<li>
-					<img class="cubeRandom"
-					     src="<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/images/16/slideshow/bb03.jpg"
-					     rel="http://strida.vn/modules/mod_btslideshow/images/16/thumbnail/bb03.jpg"/>
+						<div class="label_text"></div>
+					</li>
+					<li>
+						<img class="cubeRandom"
+						     src="<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/images/16/slideshow/bb03.jpg"
+						     rel="http://strida.vn/modules/mod_btslideshow/images/16/thumbnail/bb03.jpg"/>
 
-					<div class="label_text"></div>
-				</li>
-			</ul>
-		</div>
-		<div style="clear: both;"></div>
-		<script>
+						<div class="label_text"></div>
+					</li>
+				</ul>
+			</div>
+			<div style="clear: both;"></div>
+			<script>
 
-			(function () {
-				var libs = [
-					'<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/assets/js/jquery-1.6.2.min.js'/*tpa=http://strida.vn/modules/mod_btslideshow/assets/js/jquery-1.6.2.min.js*/,
-					'<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/assets/skitter/js/jquery.skitter.min.js'/*tpa=http://strida.vn/modules/mod_btslideshow/assets/skitter/js/jquery.skitter.min.js*/,
-					'<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/assets/skitter/js/jquery.easing.1.3.min.js'/*tpa=http://strida.vn/modules/mod_btslideshow/assets/skitter/js/jquery.easing.1.3.min.js*/,
-					'<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/assets/skitter/js/jquery.animate-colors-min.js'/*tpa=http://strida.vn/modules/mod_btslideshow/assets/skitter/js/jquery.animate-colors-min.js*/
-				];
+				(function () {
+					var libs = [
+						'<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/assets/js/jquery-1.6.2.min.js'/*tpa=http://strida.vn/modules/mod_btslideshow/assets/js/jquery-1.6.2.min.js*/,
+						'<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/assets/skitter/js/jquery.skitter.min.js'/*tpa=http://strida.vn/modules/mod_btslideshow/assets/skitter/js/jquery.skitter.min.js*/,
+						'<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/assets/skitter/js/jquery.easing.1.3.min.js'/*tpa=http://strida.vn/modules/mod_btslideshow/assets/skitter/js/jquery.easing.1.3.min.js*/,
+						'<?php bloginfo( 'template_url' ) ?>/modules/mod_btslideshow/assets/skitter/js/jquery.animate-colors-min.js'/*tpa=http://strida.vn/modules/mod_btslideshow/assets/skitter/js/jquery.animate-colors-min.js*/
+					];
 
-				BT.Loader.js(libs, function () {
-					jQuery.noConflict();
-					jQuery('#mod_btslideshow_16').skitter({
-						width: 960,
-						height: 360,
-						animation: 'glassBlock',
-						structure: '<a href="#" class="prev_button">prev</a>' + '<a href="#" class="next_button">next</a>' + '<span class="info_slide"></span>' + '<div class="container_skitter">' + '<div class="image">' + '<a target="_blank" href="index.htm"/*tpa=http://strida.vn/*/><img class="image_main" /></a>' + '<div class="label_skitter"></div>' + '</div>' + '</div>',
-						velocity: 1.3,
-						interval: 3500,
-						thumb_width: '70px',
-						thumb_height: '40px',
-						caption: 'bottom',
-						caption_width: '250',
-						navigation: 1,
-						fullscreen: false
+					BT.Loader.js(libs, function () {
+						jQuery.noConflict();
+						jQuery('#mod_btslideshow_16').skitter({
+							width: 960,
+							height: 360,
+							animation: 'glassBlock',
+							structure: '<a href="#" class="prev_button">prev</a>' + '<a href="#" class="next_button">next</a>' + '<span class="info_slide"></span>' + '<div class="container_skitter">' + '<div class="image">' + '<a target="_blank" href="index.htm"/*tpa=http://strida.vn/*/><img class="image_main" /></a>' + '<div class="label_skitter"></div>' + '</div>' + '</div>',
+							velocity: 1.3,
+							interval: 3500,
+							thumb_width: '70px',
+							thumb_height: '40px',
+							caption: 'bottom',
+							caption_width: '250',
+							navigation: 1,
+							fullscreen: false
+						});
 					});
-				});
-			})();
+				})();
 
-		</script>
+			</script>
+		</div>
 	</div>
-</div>
 <?php } ?>
 <div id="main_container">
