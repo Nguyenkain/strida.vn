@@ -9,5 +9,5 @@
 
 ?>
 <div id="page_content_left">
-	<?php echo do_shortcode( '[postlist id=111]' ); ?>
+	<?php echo ICL_LANGUAGE_CODE == 'en' ? do_shortcode( '[postlist id=111]' ) : do_shortcode( '[postlist id=855]' ); ?>
 </div>

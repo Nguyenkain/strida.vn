@@ -9,5 +9,5 @@
 
 ?>
 <div id="page_content_left" class="sidebar brand_story">
-	<?php echo do_shortcode( '[postlist id=15]' ); ?>
+	<?php echo ICL_LANGUAGE_CODE == 'en' ? do_shortcode( '[postlist id=15]' ) : do_shortcode( '[postlist id=861]' ); ?>
 </div>
