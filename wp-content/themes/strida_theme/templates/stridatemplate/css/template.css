@@ -580,3 +580,7 @@ li.latestnews a:hover {
 .main-product .page-navi {
     margin-top: 25px;
 }
+
+.category .page-navi {
+    margin-top: 20px;
+}
