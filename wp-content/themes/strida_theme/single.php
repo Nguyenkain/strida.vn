@@ -45,6 +45,7 @@ get_header(); ?>
 		<div id="product_index" style="width: 95%; text-align: right;">
 		</div>
 		<?php the_content() ?>
+		<div style="clear:both"></div>
 	</div>
 	<div style="clear:both"></div>
 </div>

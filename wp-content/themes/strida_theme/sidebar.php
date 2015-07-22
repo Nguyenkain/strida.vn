@@ -13,8 +13,8 @@
 		<?php
 		//Get all Term
 		$args  = array(
-			'orderby'    => 'id',
-			'order'      => 'ASC',
+			'orderby'    => 'name',
+			'order'      => 'DESC',
 			'hide_empty' => true,
 		);
 		$terms = get_terms( 'category', $args ); ?>

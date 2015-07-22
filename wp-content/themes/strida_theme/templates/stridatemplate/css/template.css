@@ -196,6 +196,7 @@ body {
     margin-left: 244px;
     background-color: #fff;
     /*min-height: 500px;*/
+    padding-bottom: 5px;
 }
 
 #page_content_right img.size-full {
