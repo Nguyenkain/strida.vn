@@ -24,8 +24,14 @@ Template Name: Bike Registration Template
 		<div id="page_title_left">
 			<div class="bannergroup">
 
-				<div class="banneritem"><img
-						src="<?php bloginfo( 'template_url' ) ?>/images/banners/tt_regist.jpg" alt="Banner">
+				<div class="banneritem">
+
+					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/tt_regist.jpg" alt="Banner">
+					<?php } else { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/bike_registration_page_titl.jpg"
+						     alt="Banner">
+					<?php } ?>
 
 					<div class="clr"></div>
 				</div>
