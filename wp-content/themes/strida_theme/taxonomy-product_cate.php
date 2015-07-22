@@ -79,7 +79,7 @@ get_header(); ?>
 								<img src="<?php bloginfo( 'template_url' ) ?>/images/collection_title.png" width="713"
 								     height="40" alt="collection title">
 							<?php } else { ?>
-								<img src="<?php bloginfo( 'template_url' ) ?>/images/collection_title_vn.png"
+								<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/collection_title_vn.png"
 								     alt="Banner">
 							<?php } ?>
 

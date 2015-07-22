@@ -9,5 +9,22 @@
 
 ?>
 <div id="page_content_left">
-	<?php echo ICL_LANGUAGE_CODE == 'en' ? do_shortcode( '[postlist id=172]' ) : do_shortcode( '[postlist id=852]' ); ?>
+	<ul class="menu">
+		<?php
+		//Get all Term
+		$args  = array(
+			'orderby'    => 'id',
+			'order'      => 'ASC',
+			'hide_empty' => true,
+		);
+		$terms = get_terms( 'product_cate', $args ); ?>
+
+		<?php foreach ( $terms as $term ) { ?>
+			<?php if ( $term->term_id == icl_object_id( $term->term_id, 'product_cate', false, ICL_LANGUAGE_CODE ) ) { ?>
+				<li class="item<?php echo $term->term_id ?>"><a
+						href="<?php echo get_term_link( $term ) ?>"><span><?php echo $term->name ?></span></a></li>
+			<?php } ?>
+		<?php } ?>
+
+	</ul>
 </div>
