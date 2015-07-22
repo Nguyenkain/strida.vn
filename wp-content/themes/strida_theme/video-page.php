@@ -11,8 +11,8 @@ Template Name: Video Template
 		<div id="page_title_left">
 			<div class="bannergroup">
 
-				<div class="banneritem"><img
-						src="<?php bloginfo( 'template_url' ) ?>/images/banners/tt_video.jpg" alt="Banner">
+				<div class="banneritem">
+					<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/tt_video.jpg" alt="Banner">
 
 					<div class="clr"></div>
 				</div>
