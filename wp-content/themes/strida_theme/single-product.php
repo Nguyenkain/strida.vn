@@ -23,8 +23,15 @@ get_header(); ?>
 		<div id="page_title_left">
 			<div class="bannergroup">
 
-				<div class="banneritem"><img src="<?php bloginfo( 'template_url' ) ?>/images/banners/tt_pro.jpg"
-				                             alt="Banner">
+				<div class="banneritem">
+
+					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/tt_pro.jpg"
+						     alt="Banner">
+					<?php } else { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/tt_pro_vn.jpg"
+						     alt="Banner">
+					<?php } ?>
 
 					<div class="clr"></div>
 				</div>
@@ -78,7 +85,10 @@ get_header(); ?>
 
 								$colours = get_field( 'color_attribute' );
 								foreach ( $colours as $color ) { ?>
-									<a href="<?php echo get_permalink($color['color_product']->ID) ?>"><div style="border:1px solid #c0c0c0; width: 32px; height: 22px; float: left; background: <?php echo $color['color'] ?> "></div></a>
+									<a href="<?php echo get_permalink( $color['color_product']->ID ) ?>">
+										<div
+											style="border:1px solid #c0c0c0; width: 32px; height: 22px; float: left; background: <?php echo $color['color'] ?>"></div>
+									</a>
 								<?php } ?>
 								<div style="clear: both"></div>
 							</div>

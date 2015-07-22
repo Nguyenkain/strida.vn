@@ -13,7 +13,13 @@ get_header(); ?>
 		<div id="page_title_left">
 			<div class="bannergroup">
 
-				<div class="banneritem"><img src="<?php bloginfo( 'template_url' ) ?>/images/banners/faq_title_bg.png" alt="Banner">
+				<div class="banneritem">
+
+					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/faq_title_bg.png" alt="Banner">
+					<?php } else { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/faq_title_bg_vn.jpg" alt="Banner">
+					<?php } ?>
 
 					<div class="clr"></div>
 				</div>
@@ -32,7 +38,7 @@ get_header(); ?>
 </div>
 <div id="page_content" class="single-post">
 	<div id="page_content_left">
-		<?php get_sidebar('faq') ?>
+		<?php get_sidebar( 'faq' ) ?>
 	</div>
 	<?php setup_postdata( $post ); ?>
 	<div id="page_content_right">

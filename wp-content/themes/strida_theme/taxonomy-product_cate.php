@@ -23,8 +23,15 @@ get_header(); ?>
 		<div id="page_title_left">
 			<div class="bannergroup">
 
-				<div class="banneritem"><img src="<?php bloginfo( 'template_url' ) ?>/images/banners/tt_pro.jpg"
-				                             alt="Banner">
+				<div class="banneritem">
+
+					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/tt_pro.jpg"
+						     alt="Banner">
+					<?php } else { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/tt_pro_vn.jpg"
+						     alt="Banner">
+					<?php } ?>
 
 					<div class="clr"></div>
 				</div>
@@ -67,8 +74,14 @@ get_header(); ?>
 						<?php echo term_description() ?>
 
 						<div class="product-list">
-							<img src="<?php bloginfo( 'template_url' ) ?>/images/collection_title.png" width="713"
-							     height="40" alt="collection title">
+
+							<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+								<img src="<?php bloginfo( 'template_url' ) ?>/images/collection_title.png" width="713"
+								     height="40" alt="collection title">
+							<?php } else { ?>
+								<img src="<?php bloginfo( 'template_url' ) ?>/images/collection_title_vn.png"
+								     alt="Banner">
+							<?php } ?>
 
 							<div class="main-product">
 								<?php
