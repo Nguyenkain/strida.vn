@@ -79,7 +79,7 @@ function my_option_posts_per_page( $value )
 {
 	global $option_posts_per_page;
 	if ( is_tax( 'product_cate' ) ) {
-		return 3;
+		return 6;
 	} else {
 		return $option_posts_per_page;
 	}
