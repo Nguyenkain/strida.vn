@@ -12,7 +12,21 @@ get_header(); ?>
 <div id="main_top">
 	<div id="page_title">
 		<div id="page_title_left">
+			<div class="bannergroup">
 
+				<div class="banneritem">
+					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/brandstory_title_bg.png"
+						     alt="Banner">
+					<?php } else { ?>
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/brandstory_title_bg_vn.png"
+						     alt="Banner">
+					<?php } ?>
+
+					<div class="clr"></div>
+				</div>
+
+			</div>
 		</div>
 		<div id="page_title_right">
 

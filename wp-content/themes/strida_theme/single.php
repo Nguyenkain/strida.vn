@@ -54,11 +54,12 @@ get_header(); ?>
 				</td>
 			</tr>
 			<tr>
-				<td valign="top" class="createdate">
+				<td valign="top" class="createdate" style="font-size: 12px">
 					<?php echo date( "Y-m-d H:i:s", strtotime( get_the_date() ) ) ?>    </td>
 			</tr>
 			</tbody>
 		</table>
+		<div style="clear: both"></div>
 		<?php the_content() ?>
 		<div style="clear:both"></div>
 	</div>
