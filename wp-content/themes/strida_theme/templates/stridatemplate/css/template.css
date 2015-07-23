@@ -584,3 +584,11 @@ li.latestnews a:hover {
 .category .page-navi {
     margin-top: 20px;
 }
+
+.gallery .foogallery-album-gallery-list .foogallery-pile {
+    margin: 10px 44px 15px 20px !important;
+}
+
+.gallery .foogallery-album-gallery-list li:nth-child(4n+4) .foogallery-pile {
+    margin-right: 0 !important;
+}

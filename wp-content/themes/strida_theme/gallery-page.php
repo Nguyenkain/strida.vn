@@ -28,7 +28,8 @@ Template Name: Gallery Template
 					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
 						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/gallery_title_bg.png" alt="Banner">
 					<?php } else { ?>
-						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/gallery_title_bg_vn.jpg" alt="Banner">
+						<img src="<?php bloginfo( 'template_url' ) ?>/images/banners/gallery_title_bg_vn.jpg"
+						     alt="Banner">
 					<?php } ?>
 
 					<div class="clr"></div>
@@ -49,7 +50,26 @@ Template Name: Gallery Template
 
 <div id="page_content">
 	<div class="gallery">
-		<?php echo do_shortcode( '[foogallery-album id="57"]' ); ?>
+
+		<div id="component_top" style="width: 100%; text-align:center;">
+			<table width="100%" border="0" cellpadding="0" cellspacing="1">
+				<tbody>
+				<tr>
+					<td nowrap="nowrap" style="text-align: center">
+						<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+						<a href="<?php echo get_the_permalink(1203) ?>"
+						   class="mainlevel">CREAT POST</a>
+						<?php } else { ?>
+							<a href="<?php echo get_the_permalink(1212) ?>"
+							   class="mainlevel">VI?T BÀI</a>
+						<?php } ?>
+					</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<?php the_content() ?>
 	</div>
 </div>
 <?php get_footer(); ?>
