@@ -599,3 +599,34 @@ li.latestnews a:hover {
 .gallery .foogallery-album-gallery-list li:nth-child(4n+4) .foogallery-pile {
     margin-right: 0 !important;
 }
+
+.single-faq .xa-style1>.panel>.panel-heading {
+    background: #fff;
+    color: #666;
+}
+
+.single-faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    background: #fff;
+    color: #222;
+    border-top: none;
+    border-bottom: 1px solid #eee;
+}
+
+.single-faq .panel-default>.panel-heading+.panel-collapse>.panel-body:before {
+    content: "";
+    display: block;
+}
+
+.single-faq .panel-default>.panel-heading+.panel-collapse>.panel-body:after {
+    content: "";
+    display: block;
+    clear: none;
+}
+
+.single-faq .panel-title {
+    font-size: 13px;
+}
+
+.single-faq .xa-style1>.panel>.panel-heading a {
+    padding: 12px;
+}

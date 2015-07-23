@@ -3,9 +3,9 @@ Contributors: dominykasgel, adelval, Pawel Wawrzyniak
 Donate link: http://wpml.org
 Tags: CMS, Gravity Forms, forms, WPML, multilingual
 Requires at least: 3.3
-Tested up to: 4.1.1
-Stable tag: 1.2.2
-Version: 1.2.2
+Tested up to: 3.9
+Stable tag: 1.2
+Version: 1.2
 
 Allows using Gravity Forms multilingually with WPML
 
@@ -37,23 +37,6 @@ You will need:
 3. Send forms to translation from WPML's Translation Dashboard, and edit the translations from WPML->Translations. 
 
 == Changelog ==
-
-= 1.3 =
-
-* Added support for Package Translation
-
-= 1.2.2 =
-
-* Added support for GF 1.9.x
-
-= 1.2.1 =
-
-* Fixed translating HTML content field type
-* Fixed translating option labels for radio, checkbox and select field types
-* Fixed issue with broken HTML and JS on Translation Editor screen when label contains HTML content
-* Fixed issues with Price Fields string registration and translation
-* Added filtering on WPML Translation Management Dashboard screen
-
 
 = 1.2 =
 
