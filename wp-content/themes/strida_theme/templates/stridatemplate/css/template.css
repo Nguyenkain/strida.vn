@@ -5,10 +5,17 @@ body {
     background-attachment: fixed;
     font-size: 10pt;
     background-color: #000;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     font-style: normal;
-    src: local('Roboto Regular'), local('Roboto-Regular'), url(../../../../themes.googleusercontent.com/static/fonts/roboto/v8/2UX7WLTfW3W8TclTUvlFyQ.woff) /*tpa=http://themes.googleusercontent.com/static/fonts/roboto/v8/2UX7WLTfW3W8TclTUvlFyQ.woff*/ format('woff');
+}
 
+body table {
+    font-size: 10pt !important;
+    display: table;
+}
+
+body p {
+    margin: 1em 0;
 }
 
 #language_selection {

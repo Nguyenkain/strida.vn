@@ -54,16 +54,29 @@ get_header(); ?>
 				<tr>
 					<td class="sectiontableheader" align="right" width="5%">
 					</td>
-					<td class="sectiontableheader">
-						<div style="border-bottom:1px solid #e9e9e9; width: 100%;">
-							<?php echo __( 'Title' ) ?>
-						</div>
-					</td>
-					<td class="sectiontableheader" width="25%">
-						<div style="border-bottom:1px solid #e9e9e9;width: 90%;">
-							<?php echo __( 'Issue Date' ) ?>
-						</div>
-					</td>
+					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+						<td class="sectiontableheader">
+							<div style="border-bottom:1px solid #e9e9e9; width: 100%;">
+								<a href="javascript:;"><?php echo __( 'Title' ) ?></a>
+							</div>
+						</td>
+						<td class="sectiontableheader" width="25%">
+							<div style="border-bottom:1px solid #e9e9e9;width: 90%;">
+								<a href="javascript:;"><?php echo __( 'Issue Date' ) ?></a>
+							</div>
+						</td>
+					<?php } else { ?>
+						<td class="sectiontableheader">
+							<div style="border-bottom:1px solid #e9e9e9; width: 100%;">
+								<a href="javascript:;"><?php echo __( 'Tiêu đề của danh mục' ) ?></a>
+							</div>
+						</td>
+						<td class="sectiontableheader" width="25%">
+							<div style="border-bottom:1px solid #e9e9e9;width: 90%;">
+								<a href="javascript:;"><?php echo __( 'Ngày Tháng' ) ?></a>
+							</div>
+						</td>
+					<?php } ?>
 				</tr>
 				<?php
 				// Start the Loop.

@@ -16,6 +16,7 @@
 	<link rel="stylesheet"
 	      href="<?php bloginfo( 'template_url' ) ?>/modules/mod_cassrina_hover_image_menu/style_cassrina.css"
 	      tppabs="http://strida.vn//modules/mod_cassrina_hover_image_menu/style_cassrina.css" type="text/css"/>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic' rel='stylesheet' type='text/css'>
 
 	<script type="text/javascript" src="<?php bloginfo( 'template_url' ) ?>/media/system/js/mootools.js"
 	        tppabs="http://strida.vn/media/system/js/mootools.js"></script>

@@ -59,7 +59,6 @@ get_header(); ?>
 			</tr>
 			</tbody>
 		</table>
-		<div style="clear: both"></div>
 		<?php the_content() ?>
 		<div style="clear:both"></div>
 	</div>
