@@ -56,9 +56,9 @@ get_header(); ?>
 			<tr>
 				<td valign="top" class="createdate" style="font-size: 12px">
 					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
-						<?php echo date( "Y-m-d H:i:s", strtotime( get_the_date() ) ) ?>
+						<?php echo get_the_date("l, d F Y H:i") ?>
 					<?php } else { ?>
-						<?php echo sw_get_current_weekday(date( "Y-m-d H:i:s", strtotime( get_the_date() ) )) ?>
+						<?php echo sw_get_current_weekday(date( "Y-m-d H:i:s", strtotime( get_the_date("Y-m-d H:i") ) )) ?>
 					<?php } ?>
 				</td>
 			</tr>
