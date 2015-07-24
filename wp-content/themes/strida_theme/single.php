@@ -55,7 +55,12 @@ get_header(); ?>
 			</tr>
 			<tr>
 				<td valign="top" class="createdate" style="font-size: 12px">
-					<?php echo date( "Y-m-d H:i:s", strtotime( get_the_date() ) ) ?>    </td>
+					<?php if ( ICL_LANGUAGE_CODE == 'en' ) { ?>
+						<?php echo date( "Y-m-d H:i:s", strtotime( get_the_date() ) ) ?>
+					<?php } else { ?>
+						<?php echo sw_get_current_weekday(date( "Y-m-d H:i:s", strtotime( get_the_date() ) )) ?>
+					<?php } ?>
+				</td>
 			</tr>
 			</tbody>
 		</table>

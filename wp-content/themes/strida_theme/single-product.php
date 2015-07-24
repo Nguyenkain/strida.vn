@@ -79,19 +79,20 @@ get_header(); ?>
 						} ?>
 
 						<div class="product-attribute">
-							<div class="title">Colours:</div>
-							<div class="color-contain">
-								<?php
-
-								$colours = get_field( 'color_attribute' );
-								foreach ( $colours as $color ) { ?>
-									<a href="<?php echo get_permalink( $color['color_product']->ID ) ?>">
-										<div
-											style="border:1px solid #c0c0c0; width: 32px; height: 22px; float: left; background: <?php echo $color['color'] ?>"></div>
-									</a>
-								<?php } ?>
-								<div style="clear: both"></div>
-							</div>
+							<?php $colours = get_field( 'color_attribute' ); ?>
+							<?php if ( ! empty( $colours ) ) { ?>
+								<div class="title">Colours:</div>
+								<div class="color-contain">
+									<?php
+									foreach ( $colours as $color ) { ?>
+										<a href="<?php echo get_permalink( $color['color_product']->ID ) ?>">
+											<div
+												style="border:1px solid #c0c0c0; width: 32px; height: 22px; float: left; background: <?php echo $color['color'] ?>"></div>
+										</a>
+									<?php } ?>
+									<div style="clear: both"></div>
+								</div>
+							<?php } ?>
 						</div>
 					</div>
 				</div>

@@ -85,6 +85,35 @@ function my_option_posts_per_page( $value )
 	}
 }
 
+function sw_get_current_weekday($date) {
+	$weekday = date("l", strtotime($date));
+	$weekday = strtolower($weekday);
+	switch($weekday) {
+		case 'monday':
+			$weekday = 'Thứ hai';
+			break;
+		case 'tuesday':
+			$weekday = 'Thứ ba';
+			break;
+		case 'wednesday':
+			$weekday = 'Thứ tư';
+			break;
+		case 'thursday':
+			$weekday = 'Thứ năm';
+			break;
+		case 'friday':
+			$weekday = 'Thứ sáu';
+			break;
+		case 'saturday':
+			$weekday = 'Thứ bảy';
+			break;
+		default:
+			$weekday = 'Chủ nhật';
+			break;
+	}
+	return sprintf("%s, %s Tháng %s %s %s", $weekday, date('d', strtotime($date)), date('m', strtotime($date)), date('Y', strtotime($date)), date('H:i', strtotime($date)));
+}
+
 add_action( 'init', 'cptui_register_my_cpts' );
 function cptui_register_my_cpts()
 {

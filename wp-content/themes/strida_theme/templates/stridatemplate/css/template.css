@@ -555,7 +555,7 @@ li.latestnews a:hover {
 }
 
 .search-item {
-    display: block;
+    display: inline-block;
     margin: 10px 0;
 }
 

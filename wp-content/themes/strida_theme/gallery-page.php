@@ -61,7 +61,7 @@ Template Name: Gallery Template
 						   class="mainlevel">CREAT POST</a>
 						<?php } else { ?>
 							<a href="<?php echo get_the_permalink(1212) ?>"
-							   class="mainlevel">VI?T B�I</a>
+							   class="mainlevel">VIẾT BÀI</a>
 						<?php } ?>
 					</td>
 				</tr>
