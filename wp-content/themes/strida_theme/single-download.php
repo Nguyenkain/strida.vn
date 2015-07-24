@@ -8,6 +8,15 @@
  */
 
 get_header(); ?>
+
+<style>
+	body {
+		background-color: #ffffff !important;
+		background-image: url(<?php bloginfo( 'template_url' ) ?>/images/bg/bg1.jpg) !important;
+		background-repeat: no-repeat !important;
+	}
+</style>
+
 <div id="main_top">
 	<div id="page_title">
 		<div id="page_title_left">

@@ -3,6 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
 <?php get_header() ?>
 
+<style>
+	body {
+		background-color: #ffffff !important;
+		background-image: url(<?php bloginfo( 'template_url' ) ?>/images/bg/bg1.jpg) !important;
+		background-repeat: no-repeat !important;
+	}
+</style>
+
 <div id="main_top">
 	<div id="main_top_title">
 		<div class="bannergroup">

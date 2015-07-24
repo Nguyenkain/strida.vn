@@ -81,7 +81,8 @@ get_header(); ?>
 						<div class="product-attribute">
 							<?php $colours = get_field( 'color_attribute' ); ?>
 							<?php if ( ! empty( $colours ) ) { ?>
-								<div class="title">Colours:</div>
+								<div
+									class="title"><?php echo ICL_LANGUAGE_CODE == 'en' ? "Colours:" : "Màu sắc:" ?></div>
 								<div class="color-contain">
 									<?php
 									foreach ( $colours as $color ) { ?>
